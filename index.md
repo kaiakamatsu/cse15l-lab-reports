@@ -1,3 +1,5 @@
+theme: architect
+
 # Personal Website
 
 Hey! My name is _Kai Akamatsu_
