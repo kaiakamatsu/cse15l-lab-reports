@@ -32,6 +32,12 @@ Meet my dog!
 
 ---
 
+##Lab Reports
+
+[LabReport1](lab-report-1-week-0.html)
+
+---
+
 ##Social Media Links
 
-LinkedIn: [Link](https://www.linkedin.com/in/kai-akamatsu/)
+[LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
