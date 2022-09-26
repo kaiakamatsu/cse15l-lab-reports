@@ -30,7 +30,10 @@ Random Photo!
 ![Image](https://picsum.photos/200/300)
 
 ---
+##Lab Reports
 
+[Lab Report 1](lab-report-1-week-0.html) 
+---
 ##Social Media Links
 
-LinkedIn: [Link](https://www.linkedin.com/in/kai-akamatsu/)
+[LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
