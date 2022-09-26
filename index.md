@@ -26,8 +26,9 @@ In my freetime, I like to
 3. Cook
 4. Eat out with friends
 
-Random Photo!
-![Image](https://picsum.photos/200/300)
+Meet my dog!
+
+![Image](dog.jpg)
 
 ---
 
