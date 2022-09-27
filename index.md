@@ -41,3 +41,8 @@ Meet my dog!
 ##Social Media Links
 
 [LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
+
+```
+print(Reach out to)
+print(kakamatsu@ucsd.edu) 
+```
