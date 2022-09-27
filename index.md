@@ -43,6 +43,5 @@ Meet my dog!
 [LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
 
 ```
-print(Reach out to)
-print(kakamatsu@ucsd.edu) 
+print("trying some code blocks") 
 ```
