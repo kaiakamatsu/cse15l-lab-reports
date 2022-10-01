@@ -9,7 +9,7 @@
 - Go to [VS Code Download](https://code.visualstudio.com/Download)
 - Click on the correct OS and follow the instructions to download it
 
-![Image](cselab1image1.png)
+![Image](cselab1image1.PNG)
 
 ## Remotely Connecting
 
@@ -18,13 +18,13 @@
 - If this is your first time remotely connecting, make sure you go to [this link](https://sdacs.ucsd.edu/~icc/index.php) to find your account and reset password
 - Open VS code and open a new terminal using the tab at the top of the screen
 
-![Image](cselab1image2.png)
+![Image](cselab1image2.PNG)
 
 - In that terminal, type "ssh cs15lfa22zz@ieng6.ucsd.edu" with zz replaced by the letters in your account
 - Enter your password and log in. Note that when typing your password there will be no feedback
 - Once logged in, you should see text like below
 
-![Image](cselab1image3.png)
+![Image](cselab1image3.PNG)
 
 - To log out, run the command "exit"
 
@@ -44,7 +44,7 @@
 
 See below for the commands and expected outputs:
 
-![Image](cselab1image4.png)
+![Image](cselab1image4.PNG)
 
 ## Moving Files with scp
 
@@ -56,7 +56,7 @@ See below for the commands and expected outputs:
 
 See below for an example:
 
-![Image](cselab1image6.png)
+![Image](cselab1image6.PNG)
 
 ## Setting an SSH Key
 
@@ -64,7 +64,7 @@ See below for an example:
 - Run the following to create two files: the private key and the public key
 - Note: after running ssh-keygen, just press enter for file, passphrase, and passphrase reenter
 
-![Image](cselab1image7.png)
+![Image](cselab1image7.PNG)
 
 - log into ssh
 - run the following
@@ -84,4 +84,4 @@ Below are some tips and tricks to help optimize remote running:
 2. write commands in quotes after the ssh to directly run it
    > ssh cs15lfa22kv@ieng6.ucsd.edu "ls"
 
-![Image](cselab1image8.png)
+![Image](cselab1image8.PNG)
