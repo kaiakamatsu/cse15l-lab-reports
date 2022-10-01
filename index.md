@@ -43,3 +43,7 @@ Meet my dog!
 ##Social Media Links
 
 [LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
+
+```
+print("trying some code blocks") 
+```
