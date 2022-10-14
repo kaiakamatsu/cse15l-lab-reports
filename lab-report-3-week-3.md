@@ -101,7 +101,7 @@ class SearchEngine {
 
 ## Junit Testing
 
-**For this activity, I used Junit testing to find observe symptoms and find bugs in the code**
+**For this activity, I used Junit testing to observe symptoms and find bugs in the code**
 
 1. LinkedList file methods
 
@@ -151,7 +151,7 @@ class SearchEngine {
 
 ![Image](filterbeforetwo.PNG)
 
-> I fixed this my keeping track of a new index variable that corresponds to the length of the array, which I used to add each item to the end of the array.
+> I fixed this by keeping track of a new index variable that corresponds to the length of the array, which I used to add each item to the end of the array.
 
 ![Image](filterafter.PNG)
 
