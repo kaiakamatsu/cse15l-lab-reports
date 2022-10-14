@@ -38,12 +38,10 @@ Meet my dog!
 
 [LabReport2](lab-report-2-week-1.html)
 
+[LabReport3](lab-report-3-week-3.html)
+
 ---
 
 ##Social Media Links
 
 [LinkedIn](https://www.linkedin.com/in/kai-akamatsu/)
-
-```
-print("trying some code blocks") 
-```
