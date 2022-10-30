@@ -40,6 +40,8 @@ Meet my dog!
 
 [LabReport3](lab-report-3-week-3.html)
 
+[LabReport4](lab-report-4-week-5.html)
+
 ---
 
 ##Social Media Links
