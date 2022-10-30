@@ -1,8 +1,8 @@
 # Week 5 Lab Report: Command-line options
 
-## Grep Command
+# Grep Command
 
-**Examples of grep -v command**
+## Examples of grep -v command
 
 > The grep -v command performs an inverse match which finds lines that do not contain a certain keyword
 
@@ -24,7 +24,7 @@ The ls -1 followed by grep -v ".txt" lists the files and directories in the curr
 
 The find command followed by grep -v command finds all files following a certain path pattern and lists those that do not have a certain string in its file name. This command is useful for finding all txt files that are not "research" papers.
 
-**Examples of grep -c command**
+## Examples of grep -c command
 
 > The grep -c command outputs the counts of matching lines
 
@@ -46,7 +46,7 @@ The ls -1 followed by grep -c ".txt" lists the files and directories in the curr
 
 The find command followed by grep -c finds all files following a certain path pattern and counts the number of files that contain a string such as "research" in its path. This command is useful for counting the number of txt files that are concerned with a certain subject.
 
-**Examples of grep -i command**
+## Examples of grep -i command
 
 > The grep -i command searches for matches while ignoring uppercase and lowercase.
 
