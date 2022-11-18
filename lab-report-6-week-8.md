@@ -45,15 +45,15 @@ fi
 
 ## Examples of my script running on a remote broswer
 
-1. Grading original implementation from lab 3
+> Grading original implementation from lab 3
 
 ![Image](grade.sh-1.PNG)
 
-2. Grading corrected implementation
+> Grading corrected implementation
 
 ![Image](grade.sh-2.PNG)
 
-3. Grading wrong file name
+> Grading wrong file name
 
 ![Image](grade.sh-3.PNG)
 
