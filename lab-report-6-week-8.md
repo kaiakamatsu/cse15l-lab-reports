@@ -67,13 +67,14 @@ rm -rf student-submission
 # the rm command does not write anything in stdout.
 # the return code here is 0.
 
-#the first argument to the bash command is the link to the repository. git clone command is used to clone that repository into a directory named student-submission
+#the first argument to the bash command is the link to the repository.
+#git clone command is used to clone that repository into a directory named student-submission
 git clone $1 student-submission
 # the git clone command writes nothing in the stdout and writes information about the cloning process in stderr.
 #"Cloning into 'student-submission'..." and "Updating files: " is in the stderr.
 # return code is 0 because it was successful
 
-#the TestListExamples.java file from the working directory is copied into the new student-submission directory so that both the student implementation and the Junit test file is in the same directory
+#the TestListExamples.java file from the working directory is copied into the new student-submission directory
 cp TestListExamples.java student-submission
 # writes nothing in stdout
 # return code is 0
@@ -83,7 +84,8 @@ cd student-submission
 # writes nothing in stdout
 # return code is 0
 
-if ! [[ -f ListExamples.java ]] #this if statement evaluates to true. the conditional statement checks if the ListExamples.java file DOES NOT exist. Since this is true, the code below the then runs.
+if ! [[ -f ListExamples.java ]] #this if statement evaluates to true.
+#the conditional statement checks if the ListExamples.java file DOES NOT exist. Since this is true, the code below the then runs.
 then
     echo "ListExamples.java does not exist" #this prints the message that the ListExamples.java file does not exist
     #return code is 0
