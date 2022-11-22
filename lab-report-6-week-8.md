@@ -64,31 +64,25 @@ fi
 ```bash
 #the script first deletes the existing student-submission repository so that git clone successfully creates a new directory
 rm -rf student-submission
-# the rm command does not write anything in stdout.
-# the return code here is 0.
+# stdout stderr return code - in chart below
 
 #the first argument to the bash command is the link to the repository.
 #git clone command is used to clone that repository into a directory named student-submission
 git clone $1 student-submission
-# the git clone command writes nothing in the stdout and writes information about the cloning process in stderr.
-#"Cloning into 'student-submission'..." and "Updating files: " is in the stderr.
-# return code is 0 because it was successful
+# stdout stderr return code - in chart below
 
 #the TestListExamples.java file from the working directory is copied into the new student-submission directory
 cp TestListExamples.java student-submission
-# writes nothing in stdout
-# return code is 0
+# stdout stderr return code in chart below
 
 #changes directory to the student submission directory
 cd student-submission
-# writes nothing in stdout
-# return code is 0
+# stdout stderr return code in chart below
 
 if ! [[ -f ListExamples.java ]] #this if statement evaluates to true.
 #the conditional statement checks if the ListExamples.java file DOES NOT exist. Since this is true, the code below the then runs.
 then
     echo "ListExamples.java does not exist" #this prints the message that the ListExamples.java file does not exist
-    #return code is 0
 
     exit #the script ends here due to an early exit
 
@@ -122,3 +116,37 @@ else
   echo $failure
 fi
 ```
+
+Chart of stdout stderr and return code
+
+**rm -rf student-submission**
+
+> stdout: nothing
+
+> stderr: nothing
+
+> return code: 0
+
+**git clone $1 student-submission**
+
+> stdout: nothing
+
+> stderr: "Cloning into 'student-submission'...
+
+> return code: 0
+
+**cp TestListExamples.java student-submission**
+
+> stdout: nothing
+
+> stderr: nothing
+
+> return code: 0
+
+**cd student-submission**
+
+> stdout: "^[]0;[cs15lfa22] cs15lfa22kv@ieng6-201.ucsd.edu:/home/linux/ieng6/cs15lfa22/cs15lfa22kv list-examples-grader/student-submission^G"
+
+> stderr: nothing
+
+> return code: 0
