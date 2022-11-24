@@ -80,7 +80,8 @@ cd student-submission
 # stdout stderr return code in chart below
 
 if ! [[ -f ListExamples.java ]] #this if statement evaluates to true.
-#the conditional statement checks if the ListExamples.java file DOES NOT exist. Since this is true, the code below the then runs.
+#the conditional statement checks if the ListExamples.java file DOES NOT exist.
+#Since this is true, the code below the then runs.
 then
     echo "ListExamples.java does not exist" #this prints the message that the ListExamples.java file does not exist
 
@@ -131,7 +132,7 @@ Chart of stdout stderr and return code
 
 > stdout: nothing
 
-> stderr: "Cloning into 'student-submission'...
+> stderr: "Cloning into 'student-submission'..."
 
 > return code: 0
 
