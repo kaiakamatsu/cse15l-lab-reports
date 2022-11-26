@@ -122,7 +122,7 @@ Chart of stdout stderr and return code
 
 **rm -rf student-submission**
 
-> stdout: nothing
+> stdout: nothing - the student-submission folder is deleted from the current directory
 
 > stderr: nothing
 
@@ -130,7 +130,7 @@ Chart of stdout stderr and return code
 
 **git clone $1 student-submission**
 
-> stdout: nothing
+> stdout: nothing - a new student-submission folder appears from the github repository
 
 > stderr: "Cloning into 'student-submission'..."
 
@@ -138,7 +138,7 @@ Chart of stdout stderr and return code
 
 **cp TestListExamples.java student-submission**
 
-> stdout: nothing
+> stdout: nothing - a copy of the TestListExamples.java is moved to the student-submission directory
 
 > stderr: nothing
 
